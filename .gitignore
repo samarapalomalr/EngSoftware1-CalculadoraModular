@@ -1,0 +1,13 @@
+# Ignorar arquivos compilados e binários
+bin/*
+!bin/.gitkeep
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+# Arquivos temporários de editores/IDE
+.vscode/
+.idea/
+*.swp
